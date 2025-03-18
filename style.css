@@ -169,3 +169,38 @@ header img{
 ul{
     margin: 5px;
 }
+
+#ComoFunciona{
+    background: linear-gradient(180deg, #8CFFE1, #D9FFF5);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 95vw;
+
+}
+
+.tipoConsulta{
+    display: flex;
+    justify-content: center;    
+}
+
+.text-consulta{
+    margin: 10px;
+}
+
+#Contact{
+    background: linear-gradient(180deg, #8CFFE1, #D9FFF5);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 95vw;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    height: 50px;
+}
