@@ -33,6 +33,13 @@ header{
 
 .menu-nav a{
     text-decoration: none;
+    color: #336969;
+    font-size: 1rem ;
+}
+
+.menu-nav a:hover{
+    color: #50a5a5;
+    font-size: 1.1rem
 }
 
 header img{
@@ -63,9 +70,13 @@ header img{
     top: 50px;
 }
 
-.presentation h1, h3{
+.presentation h1{
     margin: 5px;
 
+}
+
+.subtitle{
+    margin: 5px;
 }
 
 .cta-btn{
@@ -88,17 +99,32 @@ header img{
 }
 
 .img-home{
-    background-color: #8CFFE1;
-    width: 200px;
-    height: 200px;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     border-radius: 30px;
+    overflow: hidden;
 }
 
-.social{
+.img-home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Home i:hover{
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: #87e5e5
+}
+
+#Home .social{
     margin: 10px auto 0 auto;
     width: 150px;
-    font-size: 30px;
+    font-size: 2rem;
     letter-spacing: 10px;
     align-items: center;
 
@@ -136,6 +162,10 @@ header img{
     margin-bottom: 20px;
 }
 
+#Services h3{
+    text-align: center;
+}
+
 .list-service{
     text-align: center;
     padding: 10px;
@@ -159,6 +189,8 @@ header img{
 
 .text-service{
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .tips{
@@ -187,15 +219,63 @@ ul{
 
 .text-consulta{
     margin: 10px;
+    text-align: left;
 }
 
 #Contact{
-    background: linear-gradient(180deg, #8CFFE1, #D9FFF5);
+    background: linear-gradient(360deg, #8CFFE1, #D9FFF5);
     border-radius: 30px;
     text-align: center;
     margin: 10px;
     padding: 5px;
     width: 95vw;
+}
+
+#Contact .social{
+    display: flex;
+    margin: 5px;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.social-contact{
+    margin: 10px;
+}
+
+.socialmedia{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.social-inf{
+    text-decoration: none;
+}
+
+.social-inf span{
+    font-size: 1.3rem;
+}
+
+#Contact i{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+    transition: 0.8s;
+}
+
+#Contact i:hover{
+    filter: brightness(1.2);
+    font-size: 1.2rem;
+}
+
+i span{
+    padding: 10px;
+    font-size: 1.5rem;
+
 }
 
 footer{
